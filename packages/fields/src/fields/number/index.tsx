@@ -1,7 +1,7 @@
 /**
  * External dependencies
  */
-import { Number as NumberComponent } from '@wpmvc/components';
+import { Number as NumberComponent } from '@shamim-ahmed/components';
 
 /**
  * Internal dependencies

@@ -1,7 +1,7 @@
 /**
  * External dependencies
  */
-import ClassicEditor from '@wpmvc/classic-editor';
+import ClassicEditor from '@shamim-ahmed/classic-editor';
 
 /**
  * Internal dependencies

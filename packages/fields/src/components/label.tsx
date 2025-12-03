@@ -8,7 +8,7 @@ import { DropdownOption } from '@wordpress/components/build-types/dropdown-menu/
 /**
  * External dependencies
  */
-import { Badge } from '@wpmvc/components';
+import { Badge } from '@shamim-ahmed/components';
 import styled from 'styled-components';
 import { values, omit } from 'lodash';
 

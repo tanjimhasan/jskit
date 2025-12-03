@@ -4,7 +4,7 @@ import { close } from '@wordpress/icons';
 import { ModalBody, ModalFooter, StyledModal } from './styles';
 import { ModalTypes } from './types';
 
-import { ColorWrapper } from '@wpmvc/colors';
+import { ColorWrapper } from '@shamim-ahmed/colors';
 
 export default function Modal( {
 	isOpen,

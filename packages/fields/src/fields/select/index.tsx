@@ -2,7 +2,7 @@
  * External dependencies
  */
 import { isFunction } from 'lodash';
-import { Select as SelectComponent } from '@wpmvc/components';
+import { Select as SelectComponent } from '@shamim-ahmed/components';
 
 /**
  * Internal dependencies

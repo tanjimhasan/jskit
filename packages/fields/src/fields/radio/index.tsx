@@ -2,7 +2,7 @@
  * External dependencies
  */
 import { isFunction } from 'lodash';
-import { Radio as RadioComponent } from '@wpmvc/components';
+import { Radio as RadioComponent } from '@shamim-ahmed/components';
 
 /**
  * Internal dependencies

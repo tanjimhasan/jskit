@@ -4,3 +4,5 @@ build-types
 .DS_Store
 pnpm-lock.yaml
 pnpm-workspace.yaml
+./scripts
+./PUBLISHING.md

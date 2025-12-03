@@ -9,11 +9,11 @@ JSKit Fields is a flexible, extensible React field/component library for buildin
 Install via your preferred package manager:
 
 ```bash
-npm install @wpmvc/fields
+npm install @shamim-ahmed/fields
 # or
-yarn add @wpmvc/fields
+yarn add @shamim-ahmed/fields
 # or
-pnpm add @wpmvc/fields
+pnpm add @shamim-ahmed/fields
 ```
 
 ---
@@ -62,7 +62,7 @@ You can use JSKit Fields by passing a `fields` config and state handlers to the 
 **Recommended: Use the `useAttributes` hook to manage attributes state.**
 
 ```tsx
-import { Fields, useAttributes } from '@wpmvc/fields';
+import { Fields, useAttributes } from '@shamim-ahmed/fields';
 
 const fields = {
   text: {
@@ -91,11 +91,11 @@ function MyForm() {
 
 ## Registering Custom Components
 
-You can extend or override field types by passing a `components` prop to `<Fields />`.  
+You can extend or override field types by passing a `components` prop to `<Fields />`.
 This allows you to register your own custom field components or replace existing ones.
 
 ```tsx
-import { Fields, useAttributes } from '@wpmvc/fields';
+import { Fields, useAttributes } from '@shamim-ahmed/fields';
 import MyCustomField from './MyCustomField';
 
 const fields = {
@@ -134,7 +134,7 @@ You can easily use JSKit Fields inside a Gutenberg block’s `InspectorControls`
 ```tsx
 import { InspectorControls } from '@wordpress/block-editor';
 import { PanelBody } from '@wordpress/components';
-import { Fields, useAttributes } from '@wpmvc/fields';
+import { Fields, useAttributes } from '@shamim-ahmed/fields';
 
 const fields = {
   text: {

@@ -1,4 +1,4 @@
-import { ImageChoice as ImageChoiceComponent } from '@wpmvc/components';
+import { ImageChoice as ImageChoiceComponent } from '@shamim-ahmed/components';
 import { ImageChoiceProps } from './types';
 import { getValue, updateAttribute } from '../../utils';
 import { isFunction } from 'lodash';

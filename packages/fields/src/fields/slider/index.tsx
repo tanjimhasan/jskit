@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Slider as SliderComponent } from '@wpmvc/components';
+import { Slider as SliderComponent } from '@shamim-ahmed/components';
 import { __ } from '@wordpress/i18n';
 
 /**

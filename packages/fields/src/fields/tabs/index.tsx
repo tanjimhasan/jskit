@@ -8,7 +8,7 @@ import { __ } from '@wordpress/i18n';
  */
 import { PrivateFields } from '..';
 import { TabsFieldProps } from './types';
-import { Tabs as TabsComponent } from '@wpmvc/components';
+import { Tabs as TabsComponent } from '@shamim-ahmed/components';
 
 export default function Tabs( props: TabsFieldProps ): JSX.Element {
 	const { field } = props;

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Checkbox as CheckboxComponent } from '@wpmvc/components';
+import { Checkbox as CheckboxComponent } from '@shamim-ahmed/components';
 
 /**
  * Internal dependencies

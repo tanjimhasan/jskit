@@ -1,6 +1,6 @@
-# @wpmvc/admin-sidebar  
+# @shamim-ahmed/admin-sidebar
 
-[![npm](https://img.shields.io/npm/v/@wpmvc/admin-sidebar.svg)](https://www.npmjs.com/package/@wpmvc/admin-sidebar) [![downloads](https://img.shields.io/npm/dm/@wpmvc/admin-sidebar.svg)](https://www.npmjs.com/package/@wpmvc/admin-sidebar) [![License](https://img.shields.io/npm/l/@wpmvc/admin-sidebar.svg)](https://www.npmjs.com/package/@wpmvc/admin-sidebar) [![Bundle Size](https://img.shields.io/bundlephobia/minzip/@wpmvc/admin-sidebar)](https://bundlephobia.com/package/@wpmvc/admin-sidebar) [![TypeScript](https://img.shields.io/badge/types-Typescript-blue)](https://www.typescriptlang.org/)  
+[![npm](https://img.shields.io/npm/v/@shamim-ahmed/admin-sidebar.svg)](https://www.npmjs.com/package/@shamim-ahmed/admin-sidebar) [![downloads](https://img.shields.io/npm/dm/@shamim-ahmed/admin-sidebar.svg)](https://www.npmjs.com/package/@shamim-ahmed/admin-sidebar) [![License](https://img.shields.io/npm/l/@shamim-ahmed/admin-sidebar.svg)](https://www.npmjs.com/package/@shamim-ahmed/admin-sidebar) [![Bundle Size](https://img.shields.io/bundlephobia/minzip/@shamim-ahmed/admin-sidebar)](https://bundlephobia.com/package/@shamim-ahmed/admin-sidebar) [![TypeScript](https://img.shields.io/badge/types-Typescript-blue)](https://www.typescriptlang.org/)
 
 Professional React hooks for WordPress admin interfaces with complete sidebar management and responsive layout control.
 
@@ -21,23 +21,23 @@ Professional React hooks for WordPress admin interfaces with complete sidebar ma
 
 ---
 
-## Installation  
+## Installation
 
-```bash  
-npm install @wpmvc/admin-sidebar react-router-dom  
-# or  
-yarn add @wpmvc/admin-sidebar react-router-dom  
-```  
+```bash
+npm install @shamim-ahmed/admin-sidebar react-router-dom
+# or
+yarn add @shamim-ahmed/admin-sidebar react-router-dom
+```
 
 ---
 
-## Usage  
+## Usage
 
-### With React Router  
+### With React Router
 
-```tsx  
+```tsx
 import { HashRouter, useLocation, useNavigate, Outlet } from 'react-router-dom';
-import { useActiveAdminMenu, useAdminSidebarLayout } from '@wpmvc/admin-sidebar';
+import { useActiveAdminMenu, useAdminSidebarLayout } from '@shamim-ahmed/admin-sidebar';
 
 const Layout = () => {
 	// Required hooks
@@ -74,34 +74,34 @@ export default () => (
 		</Route>
 	</HashRouter>
 );
-```  
+```
 
 ---
 
-## 📚 API Reference  
+## 📚 API Reference
 
-### `useActiveAdminMenu(config: ActiveMenuConfig)`  
+### `useActiveAdminMenu(config: ActiveMenuConfig)`
 
-**Required Configuration:**  
+**Required Configuration:**
 
-| Prop | Type | Description |  
-|------|------|-------------|  
-| `pageTopLevelID` | `string` | Exact jQuery selector for menu wrapper |  
-| `rootPaths` | `string[]` | Base paths (must include `#` prefix) |  
-| `navigate` | | From `useNavigate()` |  
-| `location` | | From `useLocation()` |  
+| Prop | Type | Description |
+|------|------|-------------|
+| `pageTopLevelID` | `string` | Exact jQuery selector for menu wrapper |
+| `rootPaths` | `string[]` | Base paths (must include `#` prefix) |
+| `navigate` | | From `useNavigate()` |
+| `location` | | From `useLocation()` |
 
 
 ---
 
-### `useAdminSidebarLayout(): SidebarLayout`  
+### `useAdminSidebarLayout(): SidebarLayout`
 
-**Return Object:**  
+**Return Object:**
 
-| Property | Type | Example Value |  
-|----------|------|--------------|  
-| `left` | `number` | `190px` (expanded) |  
-| `top` | `number` | `32px` (admin bar) | 
+| Property | Type | Example Value |
+|----------|------|--------------|
+| `left` | `number` | `190px` (expanded) |
+| `top` | `number` | `32px` (admin bar) |
 
 ## Contributing
 

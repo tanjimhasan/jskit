@@ -1,5 +1,5 @@
 import { Modal } from '@wordpress/components';
-import { ColorWrapper } from '@wpmvc/colors';
+import { ColorWrapper } from '@shamim-ahmed/colors';
 import styled from 'styled-components';
 
 export const StyledModal = styled( Modal )< {

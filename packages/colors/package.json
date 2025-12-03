@@ -1,6 +1,6 @@
 {
-  "name": "@wpmvc/colors",
-  "version": "0.0.12",
+  "name": "@shamim-ahmed/colors",
+  "version": "0.0.13",
   "author": "Md Al Amin",
   "type": "module",
   "main": "build/colors.umd.js",
@@ -14,10 +14,16 @@
     "build",
     "build-types"
   ],
-  "homepage": "https://github.com/wpmvc/jskit/tree/master/packages/colors",
-  "repository": "git+https://github.com/wpmvc/jskit.git",
+  "homepage": "https://github.com/shamim-ahmed/jskit/tree/master/packages/colors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamim-ahmed/jskit.git"
+  },
   "bugs": {
-    "url": "https://github.com/wpmvc/jskit/issues"
+    "url": "https://github.com/shamim-ahmed/jskit/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@types/react": "^19.1.8",

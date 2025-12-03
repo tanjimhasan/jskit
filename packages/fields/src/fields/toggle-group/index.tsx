@@ -14,7 +14,7 @@ import { ToggleGroupFieldProps } from './types';
  * External dependencies
  */
 import { isFunction } from 'lodash';
-import { ToggleGroup as WPMVCToggleGroup } from '@wpmvc/components';
+import { ToggleGroup as WPMVCToggleGroup } from '@shamim-ahmed/components';
 
 export default function ToggleGroup(
 	props: ToggleGroupFieldProps

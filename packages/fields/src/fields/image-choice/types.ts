@@ -1,4 +1,4 @@
-import { Option } from '@wpmvc/components/build-types/gutenberg/image-choice/types';
+import { Option } from '@shamim-ahmed/components/build-types/gutenberg/image-choice/types';
 import { BaseField, BaseFieldProps } from '../../types/field';
 
 type Options = Array< Option >;

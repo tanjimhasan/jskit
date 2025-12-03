@@ -4,7 +4,7 @@
 import { getValue, isDisabled, updateAttribute } from '../../utils';
 import Label from '../../components/label';
 import { TextFieldProps } from './types';
-import { Text as TextComponent } from '@wpmvc/components';
+import { Text as TextComponent } from '@shamim-ahmed/components';
 
 const Text = ( props: TextFieldProps ) => {
 	const { field } = props;

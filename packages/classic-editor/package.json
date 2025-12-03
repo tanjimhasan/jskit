@@ -1,6 +1,6 @@
 {
-  "name": "@wpmvc/classic-editor",
-  "version": "0.0.5",
+  "name": "@shamim-ahmed/classic-editor",
+  "version": "0.0.6",
   "description": "A React component for integrating WordPress' classic editor using wp.editor API",
   "author": "Md Al Amin",
   "license": "MIT",
@@ -23,13 +23,16 @@
     "React",
     "wp-editor"
   ],
-  "homepage": "https://github.com/wpmvc/jskit/tree/master/packages/classic-editor",
+  "homepage": "https://github.com/shamim-ahmed/jskit/tree/master/packages/classic-editor",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wpmvc/jskit.git"
+    "url": "git+https://github.com/shamim-ahmed/jskit.git"
   },
   "bugs": {
-    "url": "https://github.com/wpmvc/jskit/issues"
+    "url": "https://github.com/shamim-ahmed/jskit/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@wordpress/compose": "^7.26.0",

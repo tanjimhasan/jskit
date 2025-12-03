@@ -1,6 +1,6 @@
 {
-  "name": "@wpmvc/fields",
-  "version": "0.0.38",
+  "name": "@shamim-ahmed/fields",
+  "version": "0.0.39",
   "description": "Reusable fields package for WordPress MVC JSKit.",
   "author": "Md Al Amin",
   "license": "MIT",
@@ -24,13 +24,16 @@
     "gutenberg",
     "wpmvc"
   ],
-  "homepage": "https://github.com/wpmvc/jskit/tree/master/packages/fields",
+  "homepage": "https://github.com/shamim-ahmed/jskit/tree/master/packages/fields",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wpmvc/jskit.git"
+    "url": "git+https://github.com/shamim-ahmed/jskit.git"
   },
   "bugs": {
-    "url": "https://github.com/wpmvc/jskit/issues"
+    "url": "https://github.com/shamim-ahmed/jskit/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
@@ -44,8 +47,8 @@
     "@wordpress/element": "^6.34.0",
     "@wordpress/i18n": "^6.7.0",
     "@wordpress/icons": "^11.1.0",
-    "@wpmvc/classic-editor": "^0.0.5",
-    "@wpmvc/components": "^0.0.29",
+    "@shamim-ahmed/classic-editor": "^0.0.5",
+    "@shamim-ahmed/components": "^0.0.29",
     "clsx": "^2.1.1",
     "lodash": "^4.17.21",
     "react-select": "^5.10.2",

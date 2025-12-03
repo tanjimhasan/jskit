@@ -2,14 +2,14 @@
 
 `ClassicEditor` is a React component that seamlessly integrates the WordPress Classic Editor using the `wp.editor` API. This component provides a fully customizable TinyMCE editor for your React applications, enabling rich text editing capabilities.
 
-[![npm](https://img.shields.io/npm/v/@wpmvc/classic-editor.svg)](https://www.npmjs.com/package/@wpmvc/classic-editor) [![downloads](https://img.shields.io/npm/dm/@wpmvc/classic-editor.svg)](https://www.npmjs.com/package/@wpmvc/classic-editor) [![License](https://img.shields.io/npm/l/@wpmvc/classic-editor.svg)](https://www.npmjs.com/package/@wpmvc/classic-editor) [![Bundle Size](https://img.shields.io/bundlephobia/minzip/@wpmvc/classic-editor)](https://bundlephobia.com/package/@wpmvc/classic-editor) [![TypeScript](https://img.shields.io/badge/types-Typescript-blue)](https://www.typescriptlang.org/)
+[![npm](https://img.shields.io/npm/v/@shamim-ahmed/classic-editor.svg)](https://www.npmjs.com/package/@shamim-ahmed/classic-editor) [![downloads](https://img.shields.io/npm/dm/@shamim-ahmed/classic-editor.svg)](https://www.npmjs.com/package/@shamim-ahmed/classic-editor) [![License](https://img.shields.io/npm/l/@shamim-ahmed/classic-editor.svg)](https://www.npmjs.com/package/@shamim-ahmed/classic-editor) [![Bundle Size](https://img.shields.io/bundlephobia/minzip/@shamim-ahmed/classic-editor)](https://bundlephobia.com/package/@shamim-ahmed/classic-editor) [![TypeScript](https://img.shields.io/badge/types-Typescript-blue)](https://www.typescriptlang.org/)
 
 ## Installation
 
-To install the `@wpmvc/classic-editor` package, run:
+To install the `@shamim-ahmed/classic-editor` package, run:
 
 ```sh
-npm install @wpmvc/classic-editor
+npm install @shamim-ahmed/classic-editor
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ You can use the `ClassicEditor` component in your React application as follows:
 
 ```jsx
 import { useState } from '@wordpress/element';
-import ClassicEditor from '@wpmvc/classic-editor';
+import ClassicEditor from '@shamim-ahmed/classic-editor';
 
 const MyComponent = () => {
   const [content, setContent] = useState('Initial content here');
@@ -72,7 +72,7 @@ add_filter( 'user_can_richedit', '__return_true' );
 function enqueue_wp_classic_editor_and_media() {
     // Enqueue the WordPress editor scripts
     wp_enqueue_editor();
-    
+
     // Enqueue the WordPress media scripts
     wp_enqueue_media();
 }

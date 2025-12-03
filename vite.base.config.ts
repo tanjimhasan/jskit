@@ -23,7 +23,7 @@ export const sharedConfig = {
           "clsx",
           "react-select",
         ].includes(id) ||
-        id.startsWith("@wpmvc") ||
+        id.startsWith("@shamim-ahmed") ||
         id.startsWith("@wordpress/") ||
         id.startsWith("@dnd-kit/"),
       output: {
@@ -55,9 +55,9 @@ export const sharedConfig = {
           "@dnd-kit/sortable": "sortable",
           "@dnd-kit/modifiers": "modifiers",
           "@dnd-kit/utilities": "utilities",
-          "@wpmvc/components": "wpmvc.Components",
-          "@wpmvc/colors": "wpmvc.Colors",
-          "@wpmvc/classic-editor": "wpmvc.ClassicEditor",
+          "@shamim-ahmed/components": "shamimAhmed.Components",
+          "@shamim-ahmed/colors": "shamimAhmed.Colors",
+          "@shamim-ahmed/classic-editor": "shamimAhmed.ClassicEditor",
         },
       },
     },

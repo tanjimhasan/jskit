@@ -1,7 +1,7 @@
 /**
  * External dependencies
  */
-import { Switch as SwitchComponent } from '@wpmvc/components';
+import { Switch as SwitchComponent } from '@shamim-ahmed/components';
 import styled from 'styled-components';
 
 /**
