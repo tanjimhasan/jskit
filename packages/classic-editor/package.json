@@ -35,12 +35,17 @@
     "access": "public"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
     "@wordpress/compose": "^7.26.0",
     "@wordpress/element": "^6.26.0",
     "react": "^19.1.0",
-    "styled-components": "^6.1.19"
+    "styled-components": "^6.1.19",
+    "vite-plugin-dts": "^4.5.4"
   },
   "devDependencies": {
-    "@types/react": "^19.1.8"
+    "@types/react": "^19.1.8",
+    "path": "^0.12.7",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.0"
   }
 }
