@@ -12,18 +12,21 @@ import { NumberFieldProps } from './types';
 import { isFunction } from 'lodash';
 
 export default function Number( props: NumberFieldProps ): JSX.Element {
-	const { field, attributes } = props;
+	const { field, attributes, setAttributes } = props;
 
 	const handleChange = ( value: any ) => {
+		let processedValue;
 		if ( field.precision ) {
-			updateAttribute( value ? parseFloat( value ) : undefined, props );
-			return;
+			processedValue = value ? parseFloat( value ) : undefined;
+		}else{
+			const integerValue = parseInt( value, 10 );
+            processedValue = !isNaN( integerValue ) ? integerValue : undefined;
 		}
+		updateAttribute( processedValue, props );
 
-		const integerValue = parseInt( value, 10 );
-
-		if ( ! isNaN( integerValue ) ) {
-			updateAttribute( integerValue, props );
+		// Execute the custom onChange handler if defined
+		if (field.onChange && typeof field.onChange === 'function') {
+			field.onChange({value: processedValue, ...props});
 		}
 	};
 

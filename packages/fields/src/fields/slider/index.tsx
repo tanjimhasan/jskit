@@ -10,11 +10,14 @@ import { __ } from '@wordpress/i18n';
 import Label from '../../components/label';
 import { getValue, isDisabled, updateAttribute } from '../../utils';
 import { SliderFieldProps } from './types';
+import { isFunction } from 'lodash';
 
 const Slider = ( props: SliderFieldProps ) => {
-	const { field } = props;
+	const { field, attributes } = props;
 
-	const { max = 100, min = 0 } = field;
+	// Check if min/max are functions and execute them if they are
+    const min = isFunction( field?.min ) ? field.min( attributes ) : field?.min;
+    const max = isFunction( field?.max ) ? field.max( attributes ) : field?.max;
 
 	return (
 		<SliderComponent
